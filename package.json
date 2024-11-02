@@ -3,16 +3,18 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbo",
-    "start": "next start"
+    "start": "next start",
+    "clean": "rm -rf .next"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
+    "@next/font": "^14.2.15",
     "@tailwindcss/forms": "^0.5.7",
     "@vercel/postgres": "^0.8.0",
     "autoprefixer": "10.4.19",
     "bcrypt": "^5.1.1",
     "clsx": "^2.1.1",
-    "next": "^15.0.0",
+    "next": "latest",
     "next-auth": "5.0.0-beta.19",
     "postcss": "8.4.38",
     "react": "19.0.0-rc-cd22717c-20241013",
